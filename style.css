@@ -1,3 +1,23 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header a {
+    color: black;
+}
+footer a {
+    color: #7e757a;
+}
+
 /* Header */
 
 #navbar {
@@ -46,6 +66,9 @@ footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border-top-color:lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
 }
 
 /* Left Side of Footer */
@@ -54,10 +77,9 @@ footer ul {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 1fr;
+    width: 50%;
     text-align: left;
     background-color: #eaeaeb;
-    color: #7e757a;
 }
 #left-footer li {
     float: left;
@@ -71,10 +93,9 @@ footer ul {
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 1fr;
+    width: 50%;
     text-align: right;
     background-color: #eaeaeb;
-    color: #7e757a;
 }
 #right-footer li {
     float: right;
