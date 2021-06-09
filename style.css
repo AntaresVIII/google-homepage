@@ -1,6 +1,5 @@
-html {
-    background-color: white;
-}
+/* Header */
+
 #navbar {
     display: flex;
     position: relative;
@@ -18,20 +17,67 @@ html {
     padding: 10px;
 }
 
+/* Body */
+
 img {
     display: block;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 #searchbar {
     display: block;
-    margin-top: 15px;
+    margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
+    width: 25%;
 }
 #buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Footer General */
+
+footer {
+    background-color: #40e0d0;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left Side of Footer */
+
+#left-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1fr;
+    text-align: left;
+    background-color: #eaeaeb;
+    color: #7e757a;
+}
+#left-footer li {
+    float: left;
     display: block;
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 15px;
+}
+
+/* Right Side of Footer */
+
+#right-footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 1fr;
+    text-align: right;
+    background-color: #eaeaeb;
+    color: #7e757a;
+}
+#right-footer li {
+    float: right;
+    display: block;
+    padding: 15px;
 }
