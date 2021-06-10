@@ -22,24 +22,39 @@ footer a {
 
 #navbar {
     display: flex;
-    position: relative;
     justify-content: right;
-    grid-area: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    right: 0;
+    float: right;
+    top: 0px;
 }
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    right: 0;
+    text-align: center;
 }
 #navbar li {
     float: left;
     display: block;
     padding: 10px;
+    margin: 0;
+}
+#navbar li img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: right;
+    top: 0;
+    align-items: top;
 }
 
 /* Body */
 
-img {
+body img {
     display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -50,7 +65,16 @@ img {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px;
+    text-indent: 20px;
+    overflow: hidden;
+    font-size: 12px;
 }
 #buttons {
     margin-top: 20px;
